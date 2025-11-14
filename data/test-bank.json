@@ -1,0 +1,1126 @@
+{
+  "title": "COMPREHENSIVE QUESTION BANK",
+  "source": "All Questions from All Projects",
+  "totalProjects": 16,
+  "totalQuestions": 160,
+  "projects": [
+    {
+      "projectNumber": 1,
+      "projectName": "Cat Laser Game",
+      "authors": [
+        "Balagtas, Jomar Benedict",
+        "Bautista, lan Miguel"
+      ],
+      "questions": [
+        {
+          "type": "True or False",
+          "number": 1,
+          "question": "Only html, js, and css was used for the project",
+          "answer": "True"
+        },
+        {
+          "type": "True or False",
+          "number": 2,
+          "question": "The pre trained model used is body detection",
+          "answer": "False"
+        },
+        {
+          "type": "True or False",
+          "number": 3,
+          "question": "The cat follows the player's hand during the game",
+          "answer": "True"
+        },
+        {
+          "type": "True or False",
+          "number": 4,
+          "question": "The game detects both hand",
+          "answer": "False"
+        },
+        {
+          "type": "True or False",
+          "number": 5,
+          "question": "The cat gets faster as the game goes on",
+          "answer": "True"
+        },
+        {
+          "type": "Identification",
+          "number": 1,
+          "question": "How many lives are given to you?",
+          "answer": "3"
+        },
+        {
+          "type": "Identification",
+          "number": 2,
+          "question": "what finger is being detected by the game?",
+          "answer": "index"
+        },
+        {
+          "type": "Identification",
+          "number": 3,
+          "question": "what is being represented as a score?",
+          "answer": "time"
+        },
+        {
+          "type": "Identification",
+          "number": 4,
+          "question": "What pretrained model is used for the project?",
+          "answer": "hand-pose-detection"
+        },
+        {
+          "type": "Identification",
+          "number": 5,
+          "question": "What color is the laser drawn on the canvas?",
+          "answer": "red"
+        }
+      ]
+    },
+    {
+      "projectNumber": 2,
+      "projectName": "GESTUR-INK",
+      "authors": [
+        "AYCO, Aliyah D.",
+        "MIRADOR, Kaye Anne P.",
+        "PAGBA, Noah Andrea L."
+      ],
+      "questions": [
+        {
+          "type": "Identification",
+          "number": 1,
+          "question": "What gesture is required to enable drawing?",
+          "answer": "Palm"
+        },
+        {
+          "type": "Identification",
+          "number": 2,
+          "question": "What gesture is used to perform an undo function?",
+          "answer": "Fist"
+        },
+        {
+          "type": "Identification",
+          "number": 3,
+          "question": "What is the timeout duration for the drawing auto-exit feature?",
+          "answer": "2 seconds"
+        },
+        {
+          "type": "Identification",
+          "number": 4,
+          "question": "What is the minimum tracking and minimum detection confidence of the Mediapipe Hands model used in the application?",
+          "answer": "50%"
+        },
+        {
+          "type": "Identification",
+          "number": 5,
+          "question": "Which keypoint is used for tracking in drawing?",
+          "answer": "8"
+        },
+        {
+          "type": "True or False",
+          "number": 1,
+          "question": "The video-canvas is the layer responsible for displaying the user's drawn lines and shapes.",
+          "answer": "False (The drawing-canvas is the top layer responsible for displaying the user's drawn lines and shapes; the video-canvas is used for the background)"
+        },
+        {
+          "type": "True or False",
+          "number": 2,
+          "question": "After performing the undo gesture (closed fist), the user is immediately allowed to begin drawing again.",
+          "answer": "False (After an undo, the system imposes a 1-second cooldown period)"
+        },
+        {
+          "type": "True or False",
+          "number": 3,
+          "question": "When the user selects the \"Eraser\" tool, the brushColor variable is changed to #FFFFFF (white).",
+          "answer": "False (When erasing, the system sets the drawingCtx.globalComposite Operation to destination-out)"
+        },
+        {
+          "type": "True or False",
+          "number": 4,
+          "question": "The index finger must be pointing (higher than other fingers) to activate the drawing action.",
+          "answer": "True"
+        },
+        {
+          "type": "True or False",
+          "number": 5,
+          "question": "When saving a drawing in \"webcam\" mode, the finalCtx object first draws the video feed onto the canvas as its base layer.",
+          "answer": "True"
+        }
+      ]
+    },
+    {
+      "projectNumber": 3,
+      "projectName": "Clash of Hands",
+      "authors": [
+        "Alcuizar, Mark Gio G.",
+        "Trinidad, John Ryan P."
+      ],
+      "questions": [
+        {
+          "type": "True or False",
+          "number": 1,
+          "question": "To see the video and the hand tracking dots, the code imports a library called MediaPipe.",
+          "answer": "True"
+        },
+        {
+          "type": "True or False",
+          "number": 2,
+          "question": "You win the game right away if you score 1 point.",
+          "answer": "False"
+        },
+        {
+          "type": "True or False",
+          "number": 3,
+          "question": "The game starts immediately when you open it.",
+          "answer": "False"
+        },
+        {
+          "type": "True or False",
+          "number": 4,
+          "question": "When the hand tracking works, the drawing lines on your hand turn the color green.",
+          "answer": "True"
+        },
+        {
+          "type": "True or False",
+          "number": 5,
+          "question": "The opponent's move is always ROCK because it's the easiest for the computer to choose.",
+          "answer": "False"
+        },
+        {
+          "type": "Identification",
+          "number": 1,
+          "question": "What is the specific HTML element ID that changes text to display YOU WIN!, YOU LOSE!, or DRAW!?",
+          "answer": "result-text"
+        },
+        {
+          "type": "Identification",
+          "number": 2,
+          "question": "What two gesture names are specifically checked within the isGameOver state to determine if the game should reset or exit?",
+          "answer": "THUMBS_UP and THUMBS_DOWN"
+        },
+        {
+          "type": "Identification",
+          "number": 3,
+          "question": "Which JavaScript function contains the logic to randomly select the computer's move from ROCK, PAPER, or SCISSORS?",
+          "answer": "processRound"
+        },
+        {
+          "type": "Identification",
+          "number": 4,
+          "question": "What CSS variable is used as the default color for the hand tracking dots and lines before a valid gesture is recognized?",
+          "answer": "--color-hand-fail (which is red)"
+        },
+        {
+          "type": "Identification",
+          "number": 5,
+          "question": "The Mediapipe options are set to only track a maximum of how many hands at once?",
+          "answer": "1 hand (maxNumHands:1)"
+        }
+      ]
+    },
+    {
+      "projectNumber": 4,
+      "projectName": "HandQuest Runner",
+      "authors": [
+        "Alfonso",
+        "Salem"
+      ],
+      "questions": [
+        {
+          "type": "True or False",
+          "number": 1,
+          "question": "The process of drawing hand landmarks onto the canvas is an example of Data Visualization, which helps developers debug the model's performance in real-time.",
+          "answer": "True"
+        },
+        {
+          "type": "True or False",
+          "number": 2,
+          "question": "The Feature Engineering in this code involves transforming the raw 3D coordinates (landmarks) into a low-dimensional, 5-element boolean array.",
+          "answer": "True"
+        },
+        {
+          "type": "True or False",
+          "number": 3,
+          "question": "Using the Camera object and hands.send() establishes a Synchronous Data Pipeline, forcing the entire program to pause until the ML model returns results.",
+          "answer": "False"
+        },
+        {
+          "type": "True or False",
+          "number": 4,
+          "question": "The gesture logic is built on Pose Estimation output, as it uses the relative position of joints (e.g., tip vs. knuckle) rather than just the absolute position of the hand.",
+          "answer": "True"
+        },
+        {
+          "type": "True or False",
+          "number": 5,
+          "question": "The Handedness (Left or Right) label provided by the MediaPipe model is only used to correctly calculate the thumb's extended state.",
+          "answer": "False"
+        },
+        {
+          "type": "Identification",
+          "number": 1,
+          "question": "What is the term for the 21 specific coordinates output by the MediaPipe model that locate the joints and tips of the hand?",
+          "answer": "Landmarks"
+        },
+        {
+          "type": "Identification",
+          "number": 2,
+          "question": "Which specific JavaScript array index is used to check the state of the Index Finger in the detectGesture function?",
+          "answer": "fingers[1]"
+        },
+        {
+          "type": "Identification",
+          "number": 3,
+          "question": "The combination of getFingersUp and detectGesture is known as the ____ layer of the application, responsible for interpreting the model's output.",
+          "answer": "Logic / Classification"
+        },
+        {
+          "type": "Identification",
+          "number": 4,
+          "question": "In the getFingersUp logic for non-thumb fingers, which coordinate (X or Y) is used for the tip-to-knuckle comparison?",
+          "answer": "Y-coordinate"
+        },
+        {
+          "type": "Identification",
+          "number": 5,
+          "question": "What global variable is established in the code to ensure the game engine outside of the script can read the current recognized command?",
+          "answer": "window.currentAction"
+        }
+      ]
+    },
+    {
+      "projectNumber": 5,
+      "projectName": "Gesture.io",
+      "authors": [
+        "Atim",
+        "David"
+      ],
+      "questions": [
+        {
+          "type": "True or False",
+          "number": 1,
+          "question": "The \"Yoink!\" game has a countdown that gives the player a few seconds to prepare their hand before the game officially starts.",
+          "answer": "True"
+        },
+        {
+          "type": "True or False",
+          "number": 2,
+          "question": "In the \"Doodle!\" game, if a player successfully draws the target word, their score is immediately incremented before the evaluation popup appears.",
+          "answer": "True"
+        },
+        {
+          "type": "True or False",
+          "number": 3,
+          "question": "The yoink_slowMoActive state in the \"Yoink!\" game is triggered when the player grabs a bomb target.",
+          "answer": "False (It's triggered by an hourglass target)"
+        },
+        {
+          "type": "True or False",
+          "number": 4,
+          "question": "To clear the drawing canvas in the \"Doodle!\" game, the player needs to make an \"open palm\" gesture.",
+          "answer": "True"
+        },
+        {
+          "type": "True or False",
+          "number": 5,
+          "question": "The \"Yoink!\" game allows the player to select whether they want to use their \"Left,\" \"Right,\" or \"Any\" hand to play.",
+          "answer": "True"
+        },
+        {
+          "type": "Identification",
+          "number": 1,
+          "question": "The specific type of target in \"Yoink!\" that, when grabbed, applies a penalty to the player's score.",
+          "answer": "Bomb"
+        },
+        {
+          "type": "Identification",
+          "number": 2,
+          "question": "The image file name used for the standard collectible item in the \"Yoink!\" game.",
+          "answer": "balloon.png"
+        },
+        {
+          "type": "Identification",
+          "number": 3,
+          "question": "The gesture a player needs to make with their hand to \"grab\" or \"pop\" a target in the \"Yoink!\" game.",
+          "answer": "A pinch (index finger and thumb close together)"
+        },
+        {
+          "type": "Identification",
+          "number": 4,
+          "question": "The gesture in the \"Doodle!\" game that allows the player to draw on the canvas.",
+          "answer": "Only the index finger extended"
+        },
+        {
+          "type": "Identification",
+          "number": 5,
+          "question": "The maximum number of different words the \"Doodle!\" game can ask the player to draw, based on the provided doodle_wordList.",
+          "answer": "11 words"
+        }
+      ]
+    },
+    {
+      "projectNumber": 6,
+      "projectName": "Gestura-OS",
+      "authors": [
+        "Arcega",
+        "Samonte"
+      ],
+      "questions": [
+        {
+          "type": "True or False",
+          "number": 1,
+          "question": "The smooth_move function makes the mouse cursor movement smoother by gradually moving towards the new position.",
+          "answer": "True"
+        },
+        {
+          "type": "True or False",
+          "number": 2,
+          "question": "The distance function calculates the Euclidean distance between two landmarks using the Pythagorean theorem.",
+          "answer": "True"
+        },
+        {
+          "type": "True or False",
+          "number": 3,
+          "question": "The mouse right-click is triggered when the index finger and thumb of the click hand come close together.",
+          "answer": "False"
+        },
+        {
+          "type": "True or False",
+          "number": 4,
+          "question": "The webcam frame is flipped vertically before processing.",
+          "answer": "False"
+        },
+        {
+          "type": "True or False",
+          "number": 5,
+          "question": "Is PyAutoGUI the library used for controlling mouse movement?",
+          "answer": "False"
+        },
+        {
+          "type": "Identification",
+          "number": 1,
+          "question": "Identify the library used for detecting and tracking hand landmarks in the code.",
+          "answer": "MediaPipe"
+        },
+        {
+          "type": "Identification",
+          "number": 2,
+          "question": "What is the library used for computing the Euclidian distance between the point of the thumb and the index finger.",
+          "answer": "Math"
+        },
+        {
+          "type": "Identification",
+          "number": 3,
+          "question": "Name the mouse button pressed when the middle finger and thumb are close together.",
+          "answer": "Right mouse button (Button.right) / Right"
+        },
+        {
+          "type": "Identification",
+          "number": 4,
+          "question": "What is the value of factor under the smooth_move function to ensure the smoothness of the movement of the cursor?",
+          "answer": "0.4"
+        },
+        {
+          "type": "Identification",
+          "number": 5,
+          "question": "What is the maximum number of hands the model can detect at a given time?",
+          "answer": "2"
+        }
+      ]
+    },
+    {
+      "projectNumber": 7,
+      "projectName": "Flick n' Fire",
+      "authors": [
+        "Butial",
+        "Laylo"
+      ],
+      "questions": [
+        {
+          "type": "True or False",
+          "number": 1,
+          "question": "The player starts the game with 5 lives.",
+          "answer": "False (The player starts with 3 lives)"
+        },
+        {
+          "type": "True or False",
+          "number": 2,
+          "question": "The playExplosion function is called when a player successfully hits a coin target.",
+          "answer": "False (playExplosion() is called when a bomb is hit, not a coin)"
+        },
+        {
+          "type": "True or False",
+          "number": 3,
+          "question": "Hitting a \"gold\" coin gives the player 20 money.",
+          "answer": "True"
+        },
+        {
+          "type": "True or False",
+          "number": 4,
+          "question": "The endGame function is called when the player's lives reach 0.",
+          "answer": "True"
+        },
+        {
+          "type": "True or False",
+          "number": 5,
+          "question": "The maximum level for the \"Burst Fire\" upgrade is 10.",
+          "answer": "True"
+        },
+        {
+          "type": "Identification",
+          "number": 1,
+          "question": "What is the id of the HTML element used to display the player's current score?",
+          "answer": "\"score\""
+        },
+        {
+          "type": "Identification",
+          "number": 2,
+          "question": "What is the name of the function that checks if the player's hand is making a \"gun\" sign?",
+          "answer": "isGunSign"
+        },
+        {
+          "type": "Identification",
+          "number": 3,
+          "question": "Which variable sets the initial speed of the bullets?",
+          "answer": "BULLET_SPEED"
+        },
+        {
+          "type": "Identification",
+          "number": 4,
+          "question": "What is the name of the function that plays the descending tones when the game is over?",
+          "answer": "playGameOver"
+        },
+        {
+          "type": "Identification",
+          "number": 5,
+          "question": "What is the constant variable that references the \"Restart Game\" button?",
+          "answer": "restartBtn"
+        }
+      ]
+    },
+    {
+      "projectNumber": 8,
+      "projectName": "HandiFun",
+      "authors": [
+        "Duarte",
+        "Ruin"
+      ],
+      "questions": [
+        {
+          "type": "True or False",
+          "number": 1,
+          "question": "The undo() and redo() functions let users go back or forward in shape states.",
+          "answer": "True"
+        },
+        {
+          "type": "True or False",
+          "number": 2,
+          "question": "The color of a 3D shape is controlled by activeColor.",
+          "answer": "True"
+        },
+        {
+          "type": "True or False",
+          "number": 3,
+          "question": "The detectDrag() function allows users to grab, move, and color shapes using their right hand.",
+          "answer": "True"
+        },
+        {
+          "type": "True or False",
+          "number": 4,
+          "question": "The exportOBJ() function does not save the 3D shape as a PNG image file.",
+          "answer": "False"
+        },
+        {
+          "type": "True or False",
+          "number": 5,
+          "question": "The undo() button becomes active even when there are no previous actions.",
+          "answer": "False"
+        },
+        {
+          "type": "Identification",
+          "number": 1,
+          "question": "It is the JavaScript library used for rendering 3D objects in the app.",
+          "answer": "Three.js"
+        },
+        {
+          "type": "Identification",
+          "number": 2,
+          "question": "The gesture used to rotate the camera view.",
+          "answer": "Left fist"
+        },
+        {
+          "type": "Identification",
+          "number": 3,
+          "question": "The gesture used to grab or move 3D corners.",
+          "answer": "Pinch gesture"
+        },
+        {
+          "type": "Identification",
+          "number": 4,
+          "question": "The function that creates and displays the 3D cube on the screen.",
+          "answer": "createCube()"
+        },
+        {
+          "type": "Identification",
+          "number": 5,
+          "question": "The HTML element that shows the live video feed from the webcam.",
+          "answer": "<video id=\"webcam\">"
+        }
+      ]
+    },
+    {
+      "projectNumber": 9,
+      "projectName": "SafeDrive",
+      "authors": [
+        "Unknown"
+      ],
+      "questions": [
+        {
+          "type": "True or False",
+          "number": 1,
+          "question": "Hysteresis allows output to be consistent by fully removing jitters and noises.",
+          "answer": "False (not fully removing jitters and noises)"
+        },
+        {
+          "type": "True or False",
+          "number": 2,
+          "question": "SafeDrive allows you to detect multiple drowsy events.",
+          "answer": "True"
+        },
+        {
+          "type": "True or False",
+          "number": 3,
+          "question": "SafeDrive detects drowsy events including yawns, nodding, and prolonged eye closure.",
+          "answer": "True"
+        },
+        {
+          "type": "True or False",
+          "number": 4,
+          "question": "MediaPipe has built-in yawn and prolonged eye closure detection.",
+          "answer": "False"
+        },
+        {
+          "type": "True or False",
+          "number": 5,
+          "question": "If absolute yaw or yaw $is>8$ while pitch $>=-8$, the webapp will not label it as nodding.",
+          "answer": "True"
+        },
+        {
+          "type": "Identification",
+          "number": 1,
+          "question": "What post-processing technique allows you to reduce output jitter and noise by creating enter and exit gates on threshold outputs.",
+          "answer": "Hysteresis"
+        },
+        {
+          "type": "Identification",
+          "number": 2,
+          "question": "Which MediaPipe feature did the project use for driver drowsiness prediction.",
+          "answer": "FaceMesh"
+        },
+        {
+          "type": "Identification",
+          "number": 3,
+          "question": "The app requires prolonged eye closure and negative ____ for it to be detected as drowsy nodding",
+          "answer": "PITCH"
+        },
+        {
+          "type": "Identification",
+          "number": 4,
+          "question": "What does the acronym EAR stand for?",
+          "answer": "Eye Aspect Ratio"
+        },
+        {
+          "type": "Identification",
+          "number": 5,
+          "question": "Prolonged eye closure is detected if the eye is closed for _ second?",
+          "answer": "0.5"
+        }
+      ]
+    },
+    {
+      "projectNumber": 10,
+      "projectName": "Emojion",
+      "authors": [
+        "LAXAMANA, CHARLES",
+        "MERLIN, ANGELIE"
+      ],
+      "questions": [
+        {
+          "type": "True or False",
+          "number": 1,
+          "question": "The muted attribute in the <video> tag is primarily used to ensure the video plays in high quality.",
+          "answer": "False"
+        },
+        {
+          "type": "True or False",
+          "number": 2,
+          "question": "In EmojiOn, face-api.js is used for the general task of finding where a face is located on the screen.",
+          "answer": "False"
+        },
+        {
+          "type": "True or False",
+          "number": 3,
+          "question": "In EmojiOn, opencv.js is used for detecting the face's location while face-api.js is used for figuring out the expression.",
+          "answer": "True"
+        },
+        {
+          "type": "True or False",
+          "number": 4,
+          "question": "The start() function is the main entry point that starts the application's setup process.",
+          "answer": "True"
+        },
+        {
+          "type": "True or False",
+          "number": 5,
+          "question": "The detectFacesWithOpenCV() function converts the image to grayscale before identifying face patterns using a pre-loaded Haar Cascade classifier.",
+          "answer": "True"
+        },
+        {
+          "type": "Identification",
+          "number": 1,
+          "question": "Which function is responsible for requesting the user's permission to setup web camera?",
+          "answer": "setupWebcam()"
+        },
+        {
+          "type": "Identification",
+          "number": 2,
+          "question": "This will start the app only after the page's HTML has fully loaded",
+          "answer": "App"
+        },
+        {
+          "type": "Identification",
+          "number": 3,
+          "question": "What is the format of the pre-loaded Haar Cascade file?",
+          "answer": "xml"
+        },
+        {
+          "type": "Identification",
+          "number": 4,
+          "question": "This will instantiate OpenCV's Haar Classifier",
+          "answer": "Cascade Classifier"
+        },
+        {
+          "type": "Identification",
+          "number": 5,
+          "question": "This is the source link for the OpenCV javascript used in Emojion",
+          "answer": "Opencv.js"
+        }
+      ]
+    },
+    {
+      "projectNumber": 11,
+      "projectName": "Pose K.O.",
+      "authors": [
+        "Cruz, Jansen C.",
+        "Magno, Rianne Louisa R."
+      ],
+      "questions": [
+        {
+          "type": "True or False",
+          "number": 1,
+          "question": "The detectAction() function identifies whether the player is punching, blocking, dodging, or idle based on body part positions.",
+          "answer": "True"
+        },
+        {
+          "type": "True or False",
+          "number": 2,
+          "question": "The game's pose detection continues even when the camera is turned off.",
+          "answer": "False"
+        },
+        {
+          "type": "True or False",
+          "number": 3,
+          "question": "In player.js, the player returns to an idle state after their action time ends.",
+          "answer": "True"
+        },
+        {
+          "type": "True or False",
+          "number": 4,
+          "question": "The setOpponent Difficulty() function assigns difficulty based on the selected character, not the arena map.",
+          "answer": "True"
+        },
+        {
+          "type": "True or False",
+          "number": 5,
+          "question": "The checkCollisions() function only checks if the player hits the opponent.",
+          "answer": "False"
+        },
+        {
+          "type": "Identification",
+          "number": 1,
+          "question": "What function calculates the angle between the shoulder, elbow, and wrist to detect punches?",
+          "answer": "getAngle()"
+        },
+        {
+          "type": "Identification",
+          "number": 2,
+          "question": "What function reduces the player's health when they take damage from the opponent?",
+          "answer": "takeDamage()"
+        },
+        {
+          "type": "Identification",
+          "number": 3,
+          "question": "What function loads the background arena images like \"lab\" or \"struggle\"?",
+          "answer": "loadArenalmages()"
+        },
+        {
+          "type": "Identification",
+          "number": 4,
+          "question": "According to the code, how many milliseconds does the opponent wait between actions in normal mode?",
+          "answer": "1500 ms"
+        },
+        {
+          "type": "Identification",
+          "number": 5,
+          "question": "What function updates the character's animation frames so the player and opponent move smoothly?",
+          "answer": "update Animation()"
+        }
+      ]
+    },
+    {
+      "projectNumber": 12,
+      "projectName": "Unknown Project (Gesture Drawing)",
+      "authors": [
+        "Unknown"
+      ],
+      "questions": [
+        {
+          "type": "True or False",
+          "number": 1,
+          "question": "Did we use any external javascript libraries aside from the model cdn?",
+          "answer": "False"
+        },
+        {
+          "type": "True or False",
+          "number": 2,
+          "question": "Mediapipe model was loaded locally not with a cdn.",
+          "answer": "False"
+        },
+        {
+          "type": "True or False",
+          "number": 3,
+          "question": "We tracked the landmark coordinate 8 for the index finger?",
+          "answer": "True"
+        },
+        {
+          "type": "True or False",
+          "number": 4,
+          "question": "The threshold for drawing becomes lower if drawing = true.",
+          "answer": "True"
+        },
+        {
+          "type": "True or False",
+          "number": 5,
+          "question": "We used $1 recognizer only for fallback?",
+          "answer": "True"
+        },
+        {
+          "type": "Identification",
+          "number": 1,
+          "question": "A MediaPipe model that detects hands in an input image or video frame",
+          "answer": "HandLandmarker"
+        },
+        {
+          "type": "Identification",
+          "number": 2,
+          "question": "Rendering context used to draw graphics, text, and images directly in the browser.",
+          "answer": "Canvas2D"
+        },
+        {
+          "type": "Identification",
+          "number": 3,
+          "question": "A free, open-source technology that allows web browsers to send and receive audio, video, and data in real-time. It is used to access the webcam.",
+          "answer": "WebRTC getUserMedia"
+        },
+        {
+          "type": "Identification",
+          "number": 4,
+          "question": "The function is responsible for synchronizing the canvas resolution with its CSS size to avoid blurring or scaling issues?",
+          "answer": "syncOverlaySize()"
+        },
+        {
+          "type": "Identification",
+          "number": 5,
+          "question": "What is the fallback recognition system we used for recognizing gestures?",
+          "answer": "$1 recognition system"
+        }
+      ]
+    },
+    {
+      "projectNumber": 13,
+      "projectName": "ReflexAl",
+      "authors": [
+        "Castro, Andrei Carl",
+        "De Leon, Kyla Marie"
+      ],
+      "questions": [
+        {
+          "type": "True or False",
+          "number": 1,
+          "question": "The ReflexAl game uses both Mediapipe Hands and Teachable Machine to process hand gestures and ASL letters.",
+          "answer": "True"
+        },
+        {
+          "type": "True or False",
+          "number": 2,
+          "question": "In ReflexAl, the video and canvas are mirrored horizontally to create a selfie effect for the user.",
+          "answer": "True"
+        },
+        {
+          "type": "True or False",
+          "number": 3,
+          "question": "ReflexAl allows the \"Pass\" button to skip rounds in every game mode, including Gesture and Target modes.",
+          "answer": "False"
+        },
+        {
+          "type": "True or False",
+          "number": 4,
+          "question": "When playing in ASL sequential mode, ReflexAl starts each round immediately, without a waiting period.",
+          "answer": "True"
+        },
+        {
+          "type": "True or False",
+          "number": 5,
+          "question": "In Target mode, ReflexAl completes the round when the index fingertip is close to a randomly placed blue target on the screen.",
+          "answer": "True"
+        },
+        {
+          "type": "Identification",
+          "number": 1,
+          "question": "Which feature of mediapipe did ReflexAl use?",
+          "answer": "Hand Detection"
+        },
+        {
+          "type": "Identification",
+          "number": 2,
+          "question": "How many keypoint does mediapipe hand detection have?",
+          "answer": "21 Keypoints"
+        },
+        {
+          "type": "Identification",
+          "number": 3,
+          "question": "Which function randomizes the gestures shown?",
+          "answer": "randomGesture()"
+        },
+        {
+          "type": "Identification",
+          "number": 4,
+          "question": "This code loads mediapipe hands library [https://cdn.jsdelivr.net/npm/@mediapipe/hands/js]",
+          "answer": "hands"
+        },
+        {
+          "type": "Identification",
+          "number": 5,
+          "question": "Which number represents the index finger?",
+          "answer": "8"
+        }
+      ]
+    },
+    {
+      "projectNumber": 14,
+      "projectName": "GlitchoWare",
+      "authors": [
+        "Alberto Isabelo Lloren",
+        "Marc Victor Velasquez"
+      ],
+      "questions": [
+        {
+          "type": "Identification",
+          "number": 1,
+          "question": "In the game-engine.js file, what is the default number of lives a player starts with?",
+          "answer": "3 lives"
+        },
+        {
+          "type": "Identification",
+          "number": 2,
+          "question": "Which specific MediaPipe feature is the core dependency used by the application for body tracking?",
+          "answer": "MediaPipe Pose"
+        },
+        {
+          "type": "Identification",
+          "number": 3,
+          "question": "In the ScarecrowGame, what is the pose required to scare the crows away, and how long must it be held?",
+          "answer": "Arms out wide (both arms up) for 1 second"
+        },
+        {
+          "type": "Identification",
+          "number": 4,
+          "question": "What happens to the escape rate in the Quicksand Escape Game if the player finds the 'hidden treasure'?",
+          "answer": "The escape rate is doubled"
+        },
+        {
+          "type": "Identification",
+          "number": 5,
+          "question": "Which HTML element is used as the target for the real-time drawing of the game-specific assets (like meteors, flies, or quicksand graphics)?",
+          "answer": "<canvas id=\"game-assets-canvas\">"
+        },
+        {
+          "type": "True or False",
+          "number": 1,
+          "question": "The FlyCatcherGame considers swatting a bee as a successful action toward the required swat count.",
+          "answer": "False"
+        },
+        {
+          "type": "True or False",
+          "number": 2,
+          "question": "The MeteorDodgeGame uses the player's arm position (up or down) to determine their dodging action.",
+          "answer": "False"
+        },
+        {
+          "type": "True or False",
+          "number": 3,
+          "question": "All microgames are required to complete successfully to achieve a victory (Win Condition) in the GameEngine.",
+          "answer": "True"
+        },
+        {
+          "type": "True or False",
+          "number": 4,
+          "question": "The BaseMicrogame class defines its own cleanup method to clear only game-specific assets and not generic timers/intervals.",
+          "answer": "False"
+        },
+        {
+          "type": "True or False",
+          "number": 5,
+          "question": "The application uses standard pre-loaded HTML <audio> elements for sound effects instead of generating them with the Web Audio API.",
+          "answer": "False"
+        }
+      ]
+    },
+    {
+      "projectNumber": 15,
+      "projectName": "Fruit Catch Game",
+      "authors": [
+        "Unknown"
+      ],
+      "questions": [
+        {
+          "type": "True or False",
+          "number": 1,
+          "question": "The game uses the fingertips as a way to catch the falling fruits.",
+          "answer": "True"
+        },
+        {
+          "type": "True or False",
+          "number": 2,
+          "question": "The hand landmarks for the fingertips are 5, 10,15, 21",
+          "answer": "False (4, 8, 12, 16, 20)"
+        },
+        {
+          "type": "True or False",
+          "number": 3,
+          "question": "The game or project uses both tensorflowjs and Mediapipe",
+          "answer": "False (Mediapipe Hands only)"
+        },
+        {
+          "type": "True or False",
+          "number": 4,
+          "question": "The max number of miss to lose in the game or project is 5 misses",
+          "answer": "False (10)"
+        },
+        {
+          "type": "True or False",
+          "number": 5,
+          "question": "The update Hud() function is responsible for updating the display of score, streak, and misses on the screen.",
+          "answer": "True"
+        },
+        {
+          "type": "Identification",
+          "number": 1,
+          "question": "The object used to detect the player's hand landmarks using MediaPipe.",
+          "answer": "hands"
+        },
+        {
+          "type": "Identification",
+          "number": 2,
+          "question": "The function responsible for starting the game and resetting the score, streak, and misses to 0.",
+          "answer": "startgame()"
+        },
+        {
+          "type": "Identification",
+          "number": 3,
+          "question": "The HTML element that is used to display the score during the game.",
+          "answer": "scoredisplay"
+        },
+        {
+          "type": "Identification",
+          "number": 4,
+          "question": "The class that defines the properties and behavior of the items (fruits) falling in the game.",
+          "answer": "item"
+        },
+        {
+          "type": "Identification",
+          "number": 5,
+          "question": "The object that manages the camera feed and sends it to the MediaPipe Hands model for processing.",
+          "answer": "camera"
+        }
+      ]
+    },
+    {
+      "projectNumber": 16,
+      "projectName": "Fishy Business",
+      "authors": [
+        "Munoz",
+        "Natividad"
+      ],
+      "questions": [
+        {
+          "type": "True or False",
+          "number": 1,
+          "question": "The peace, point, and thumb gestures select bait, wild bait, and magic bait food types respectively.",
+          "answer": "True"
+        },
+        {
+          "type": "True or False",
+          "number": 2,
+          "question": "Fish prioritize moving toward the nearest food within 150 pixels.",
+          "answer": "True"
+        },
+        {
+          "type": "True or False",
+          "number": 3,
+          "question": "The code uses MediaPipe Holistic for hand-gesture detection and camera input.",
+          "answer": "False"
+        },
+        {
+          "type": "True or False",
+          "number": 4,
+          "question": "The coins acquired for each type of food are 1, 5, and 10 respectively.",
+          "answer": "True"
+        },
+        {
+          "type": "True or False",
+          "number": 5,
+          "question": "Only the happy meter is paused when the shop is open.",
+          "answer": "False"
+        },
+        {
+          "type": "Identification",
+          "number": 1,
+          "question": "What MediaPipe module is used to detect and track hand gestures?",
+          "answer": "Hands module"
+        },
+        {
+          "type": "Identification",
+          "number": 2,
+          "question": "Which function returns food statistics including happiness increase and coins?",
+          "answer": "getFoodStats()"
+        },
+        {
+          "type": "Identification",
+          "number": 3,
+          "question": "What is the swimSpeed of a sad fish?",
+          "answer": "0.5"
+        },
+        {
+          "type": "Identification",
+          "number": 4,
+          "question": "What is the duration (in milliseconds) of each round?",
+          "answer": "60000 milliseconds (60 seconds)"
+        },
+        {
+          "type": "Identification",
+          "number": 5,
+          "question": "What function loads all game images before the game starts?",
+          "answer": "preloadImages()"
+        }
+      ]
+    }
+  ]
+}
