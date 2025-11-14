@@ -7,6 +7,7 @@ import QuestionCard from '@/components/QuestionCard';
 import ResultsScreen from '@/components/ResultsScreen';
 import WelcomeScreen from '@/components/WelcomeScreen';
 import testBankData from '@/data/test-bank.json';
+import { TestBank } from '@/types/quiz';
 import { AnimatePresence } from 'framer-motion';
 
 export default function QuizPage() {
@@ -18,7 +19,7 @@ export default function QuizPage() {
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const startQuiz = () => {
-    const randomQuestions = getRandomQuestions(testBankData, 20);
+    const randomQuestions = getRandomQuestions(testBankData as TestBank, 20);
     setQuestions(randomQuestions);
     setCurrentQuestionIndex(0);
     setCurrentAnswer('');
