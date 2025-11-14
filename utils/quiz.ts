@@ -51,8 +51,6 @@ export function checkAnswer(userAnswer: string, correctAnswer: string, questionT
     return (isUserTrue && isCorrectTrue) || (isUserFalse && !isCorrectTrue);
   }
   
-  // For identification questions, check if the answer is contained or matches
-  return normalized === normalizedCorrect || 
-         normalizedCorrect.includes(normalized) || 
-         normalized.includes(normalizedCorrect);
+  // For identification questions, require exact match (case-insensitive)
+  return normalized === normalizedCorrect;
 }
