@@ -69,26 +69,6 @@ export default function WelcomeScreen({ onStart, totalQuestions }: WelcomeScreen
           </div>
         </motion.div>
 
-        <motion.div
-          initial={{ y: 20, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ delay: 0.8 }}
-          className="space-y-3 mb-8 text-left"
-        >
-          <div className="flex items-center text-gray-300">
-            <span className="text-2xl mr-3">📝</span>
-            <span className="font-medium">Mix of True/False and Identification questions</span>
-          </div>
-          <div className="flex items-center text-gray-300">
-            <span className="text-2xl mr-3">🔀</span>
-            <span className="font-medium">Questions are randomly selected each time</span>
-          </div>
-          <div className="flex items-center text-gray-300">
-            <span className="text-2xl mr-3">⚡</span>
-            <span className="font-medium">Instant feedback on your answers</span>
-          </div>
-        </motion.div>
-
         <motion.button
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
